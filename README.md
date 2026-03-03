@@ -10,8 +10,8 @@ inspirada en **Clash Royale**; se incluyen logotipos, fondos y colores del juego
 docker compose up --build
 ```
 
-- Abre el navegador en http://localhost:8080 (o en tu nombre personalizado, por ejemplo
-  http://clashroyale.local:8080 —añade ese host en `/etc/hosts` apuntando a `127.0.0.1`),
+- Abre el navegador en http://localhost:80 (o en tu nombre personalizado, por ejemplo
+  http://clashroyale.local:80 —añade ese host en `/etc/hosts` apuntando a `127.0.0.1`),
   regístrate, inicia sesión y realiza altas/bajas/modificaciones.
 
 - **Notas de seguridad:**
