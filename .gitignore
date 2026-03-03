@@ -1,0 +1,10 @@
+# ignore environment file containing secrets
+.env
+
+# ignore vendor directory (not used)
+
+# ignore phpstorm/project files
+.idea/
+
+# ignore __pycache__, node_modules etc if any
+
