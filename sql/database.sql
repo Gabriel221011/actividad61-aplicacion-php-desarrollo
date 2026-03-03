@@ -30,9 +30,9 @@ CREATE TABLE IF NOT EXISTS `cartas_clash_royale` (
   UNIQUE KEY `unique_nombre` (`nombre_carta`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- Seed usuarios (2 sample users, hashes are examples for 'password123' and 'adminpass')
+-- Seed usuarios (2 sample users, hashes are examples for 'nueva123' and 'adminpass')
 INSERT INTO `usuarios` (nombre_usuario, contrasena, correo) VALUES
-('gabriel', '$2y$10$KbQi3vhu0k7uK8/b0R1xpuYh2A..T1j7qFqkYH3Gr2xmj5Z6cvwui', 'gabriel@example.com'),
+('gabriel', '$2y$10$yOq0C3m33ZdVQ3mAgzQj/.lakoTKHNrmGx9sVzDoxOVf2QipwHVe2', 'gabriel@example.com'),
 ('admin', '$2y$10$5vY8rSbtzAq4jP9QcwInFOGhhqfHPw1aE/6P3da81QlvZVtO97K/6', 'admin@example.com');
 
 -- Seed cartas_clash_royale (10 records)
